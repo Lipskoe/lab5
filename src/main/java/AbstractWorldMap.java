@@ -3,9 +3,9 @@ import java.util.List;
 
 abstract class AbstractWorldMap implements IWorldMap {
 
-    public int width;
-    public int height;
-    public List<Animal> animals = new ArrayList<Animal>();
+    protected int width;
+    protected int height;
+    protected List<Animal> animals = new ArrayList<Animal>();
 
 
     public AbstractWorldMap(int width, int height) {
